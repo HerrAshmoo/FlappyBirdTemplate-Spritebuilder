@@ -42,7 +42,7 @@
     NSArray *_bushes;
     
     _parallaxBackground = [CCParallaxNode node];
-    [_parallaxContainer addChild:_parallaxBackground];
+    _[parallaxContainer addChild:_parallaxBackground];
     
     // Note that the bush ratio is larger than the cloud
     _bushParallaxRatio = ccp(0.9, 1);
